@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "Frontend Webpage",
+      "category": "Web development",
+      "image": "images/project-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Hotel Booking",
+      "category": "Web design",
+      "image": "images/project-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Brawlhalla",
+      "category": "Web Development",
+      "image": "images/project-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Bus Tracking front-end",
+      "category": "Web design",
+      "image": "images/project-5.png"
+    },
+    {
+      "id": 5,
+      "title": "Summary",
+      "category": "Web development",
+      "image": "images/project-7.png"
+    },
+    {
+      "id": 6,
+      "title": "Shoes Website",
+      "category": "Web design",
+      "image": "images/project-8.png"
+    }
+  ]
+  
