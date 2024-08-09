@@ -69,7 +69,7 @@ const Aside = () => {
             </div>
           </li>
 
-          <li className="contact-item">
+{/*           <li className="contact-item">
             <div className="icon-box">
               <GiCalendar />
             </div>
@@ -79,7 +79,7 @@ const Aside = () => {
 
               <time dateTime="2002-03-14">14 march, 2002</time>
             </div>
-          </li>
+          </li> */}
 
           <li className="contact-item">
             <div className="icon-box">
