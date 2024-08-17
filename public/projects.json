@@ -3,7 +3,8 @@
       "id": 1,
       "title": "Frontend Webpage",
       "category": "Web development",
-      "image": "images/project-1.png"
+      "image": "images/project-1.png",
+       "url" : "https://github.com/RajeevBaniya/watch-mart"
     },
     {
       "id": 2,
