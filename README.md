@@ -1,5 +1,6 @@
 <h1 align = "center" >MY PORTFOLIO WEBSITE</h1>
- <h1>Visit my personal website -  https://baniyarajeev.com.np/</h1>
+-[Visit my personal website](https://baniyarajeev.com.np/)
+
    
 # React + Vite
 
