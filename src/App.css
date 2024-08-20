@@ -998,6 +998,30 @@ textarea.form-input::-webkit-resizer { display: none; }
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
+@media (min-width: 300px) {
+  /**
+    * client
+    */
+ 
+    .clients-item { min-width: calc(33.33% - 10px); }
+    .social-list { 
+      justify-content: center;
+     }
+  
+  
+    /**
+     * #PORTFOLIO, BLOG 
+     */
+  
+    .project-img,
+    .blog-banner-box { height: auto; }
+  
+    .contacts-list {
+      margin-top: 16px;
+    }
+ }
+
+
 @media (min-width: 400px) {
  /**
    * client
