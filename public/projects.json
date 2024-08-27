@@ -34,6 +34,12 @@
     "title": "Shoes Website",
     "category": "Web design",
     "image": "images/project-8.png"
+  },
+   {
+    "id": 6,
+    "title": "Video Calling App",
+    "category": "Web App(In-process)",
+    "image": "images/project-7.png"
   }
 ]
 
