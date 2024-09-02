@@ -6,7 +6,7 @@ import Service from "./Service";
 const servicesData = [
   {
     icon: "/images/icon-design.svg",
-    title: "Web design",
+    title: "Designing",
     description:
       "The most modern and high-quality design made at a professional level.",
   },
