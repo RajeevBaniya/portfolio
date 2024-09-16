@@ -1,4 +1,4 @@
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import {
   GiClawSlashes,
@@ -55,16 +55,19 @@ const Aside = () => {
             </div>
           </li>
 
-          <li className="contact-item">
+         <li className="contact-item">
             <div className="icon-box">
-              <FaWhatsapp />
+            <FaPhoneAlt />
             </div>
 
             <div className="contact-info">
-              <p className="contact-title">Whatsapp</p>
-
+              <p className="contact-title">Phone</p>
               <a href="tel:+917275966908" className="contact-link">
-                +917275966908
+              +977 9819460850
+              </a>
+              
+              <a href="tel:+917275966908" className="contact-link">
+                +91 7275966908
               </a>
             </div>
           </li>
