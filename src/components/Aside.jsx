@@ -1,5 +1,5 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaPhoneFlip, FaXTwitter } from "react-icons/fa6";
 import {
   GiClawSlashes,
   GiCalendar,
@@ -55,7 +55,7 @@ const Aside = () => {
             </div>
           </li>
 
-         <li className="contact-item">
+          <li className="contact-item">
             <div className="icon-box">
             <FaPhoneAlt />
             </div>
@@ -65,14 +65,14 @@ const Aside = () => {
               <a href="tel:+917275966908" className="contact-link">
               +977 9819460850
               </a>
-              
+
               <a href="tel:+917275966908" className="contact-link">
                 +91 7275966908
               </a>
             </div>
           </li>
 
-{/*           <li className="contact-item">
+          {/*           <li className="contact-item">
             <div className="icon-box">
               <GiCalendar />
             </div>
