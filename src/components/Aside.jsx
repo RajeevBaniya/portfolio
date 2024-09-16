@@ -62,24 +62,16 @@ const Aside = () => {
 
             <div className="contact-info">
               <p className="contact-title">Whatsapp</p>
+               <a href="tel:+917275966908" className="contact-link">
+                +977 9819460850
+              </a>
 
               <a href="tel:+917275966908" className="contact-link">
-                +917275966908
+                +91 7275966908
               </a>
             </div>
           </li>
 
-          <li className="contact-item">
-            <div className="icon-box">
-              <GiCalendar />
-            </div>
-
-            <div className="contact-info">
-              <p className="contact-title">Birthday</p>
-
-              <time dateTime="2002-03-14">14 march, 2002</time>
-            </div>
-          </li>
 
           <li className="contact-item">
             <div className="icon-box">
