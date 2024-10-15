@@ -25,7 +25,7 @@ const Aside = () => {
           <h1 className="name" title=" Rajeev Baniya">
             Rajeev Baniya
           </h1>
-          <p className="title">Web Developer</p>
+          <p className="title">Front-end Developer</p>
         </div>
 
         <button className="info_more-btn data-sidebar-btn "  onClick={handleSidebarClick} >
