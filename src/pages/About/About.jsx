@@ -16,10 +16,10 @@ const servicesData = [
     description: "High-quality development of sites at the professional level.",
   },
   {
-    icon: "/images/icon-app.svg",
-    title: "App development",
+    icon: "/images/icon-dev.svg",
+    title: "Cloud Technology",
     description:
-      "Professional development of applications for iOS and Android.",
+      "Expertise in cloud-based applications and services.",
   },
   {
     icon: "/images/icon-photo.svg",
