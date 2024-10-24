@@ -1,7 +1,7 @@
 
 [
     {
-      "title": "Web design",
+      "title": "Designing",
       "icon": "/images/icon-design.svg",
       "description": "The most modern and high-quality design made at a professional level."
     },
@@ -13,7 +13,7 @@
     {
       "title": "Cloud Technology",
       "icon": "/images/icon-dev.svg",
-      "description": "Professional development of applications for iOS and Android."
+      "description": "Expertise in cloud-based applications and services"
     },
     {
       "title": "Photography",
