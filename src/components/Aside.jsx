@@ -1,6 +1,7 @@
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import {
+  // FaWhatsapp
   GiClawSlashes,
   GiCalendar,
   GiMailbox,
@@ -57,7 +58,8 @@ const Aside = () => {
 
           <li className="contact-item">
             <div className="icon-box">
-              <FaWhatsapp />
+{/*               <FaWhatsapp /> */}
+              <FaPhoneAlt />
             </div>
 
             <div className="contact-info">
