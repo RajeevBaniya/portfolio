@@ -78,6 +78,7 @@ const Resume = () => {
           <SkillItem title="MongoDB" value={90} />
           <SkillItem title="MySql" value={70} />
           <SkillItem title="Node Js" value={80} />
+          <SkillItem title="AWS" value={60} />
         </ul>
       </div>
     </section>
