@@ -47,7 +47,7 @@ const Resume = () => {
           <TimelineItem
             title="FRONT-END DEVELOPER INTERNSHIP"
             date="UNICOM PORTAL"
-            description="During my internship at Unicom Portal as a Front-End Developer, I built a front-end website,
+            description="During my internship at Unicom Portal, I built a front-end website,
             which helped me improve my skills in front-end technologies and gain valuable knowledge."
           />
         </ol>
