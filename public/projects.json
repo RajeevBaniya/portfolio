@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Frontend Webpage",
+    "title": "Ecommerce website",
     "category": "Web development",
     "image": "images/project-1.png"
   },
@@ -19,7 +19,7 @@
   },
   {
     "id": 4,
-    "title": "Bus Tracking front-end",
+    "title": "Bus Tracking",
     "category": "Web design",
     "image": "images/project-5.png"
   },
@@ -31,14 +31,14 @@
   },
   {
     "id": 6,
-    "title": "Shoes Website",
-    "category": "Web design",
+    "title": "AI-Travel Planner",
+    "category": "Web development",
     "image": "images/project-8.png"
   },
    {
     "id": 7,
     "title": "Restaurant website",
-    "category": "Web development",
+    "category": "Web design",
     "image": "images/project-7.png"
   }
 ]
