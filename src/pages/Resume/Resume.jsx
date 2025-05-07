@@ -47,8 +47,13 @@ const Resume = () => {
           <TimelineItem
             title="FRONT-END DEVELOPER INTERNSHIP"
             date="UNICOM PORTAL"
-            description="During my internship at Unicom Portal, I built a front-end website,
-            which helped me improve my skills in front-end technologies and gain valuable knowledge."
+            description="As a Front-End Developer Intern at Unicom Portal, I collaborated with cross-functional teams
+            to enhance the platform's user experience. My primary responsibility was designing and optimizing responsive
+            web components, which improved page load speed. I implemented secure authentication and streamlined data management
+            workflows, enhancing user access control. By using modern web development practices, I developed UI features that 
+            improved accessibility across devices. Overall, This internship strengthened my ability to work in fast-paced teams
+            and boosted my proficiency with modern development tools and version control systems like Git. Overall, the experience
+            deepened my understanding of user-centered design principles and scalable solutions."
           />
         </ol>
       </div>
