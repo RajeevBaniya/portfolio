@@ -1735,3 +1735,28 @@ textarea.form-input::-webkit-resizer { display: none; }
     height: 250px;
   }
 }
+
+/* Responsive adjustments for project images only */
+@media (max-width: 580px) {
+  .project-img {
+    height: 180px;
+  }
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+  .project-img {
+    height: 190px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .project-img {
+    height: 195px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .project-img {
+    height: 200px;
+  }
+}
