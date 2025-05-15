@@ -84,8 +84,8 @@ const Aside = () => {
             <div className="contact-info">
               <p className="contact-title">Residence</p>
 
-              <address>Nepal - Home</address>
-              <address>India - Studying</address>
+              <address>Nepal</address>
+              <address>India</address>
             </div>
           </li>
         </ul>
