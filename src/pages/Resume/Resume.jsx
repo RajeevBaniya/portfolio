@@ -47,9 +47,9 @@ const Resume = () => {
           <TimelineItem
             title="FRONT-END DEVELOPER INTERNSHIP"
             date="UNICOM PORTAL"
-            description="- Collaborated with teams to implement secure authentication and data management. 
-                         - Designed and optimized a responsive web application, improving user experience and boosting overall performance.
-                         - Helped reduce website load times and accessibility features.  "
+            description="-></TimelineItem> Collaborated with teams to implement secure authentication and data management. 
+                         -></TimelineItem> Designed and optimized a responsive web application, improving user experience and boosting overall performance.
+                         -></TimelineItem> Helped reduce website load times and accessibility features."
           />
         </ol>
       </div>
