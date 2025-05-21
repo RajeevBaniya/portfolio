@@ -65,11 +65,11 @@ const Aside = () => {
             <div className="contact-info">
               <p className="contact-title">Phone</p>
                <a href="tel:+917275966908" className="contact-link">
-                +977 9819460850
-              </a>
-
-              <a href="tel:+917275966908" className="contact-link">
                 +91 7275966908
+              </a>
+              
+               <a href="tel:+917275966908" className="contact-link">
+                +977 9819460850
               </a>
             </div>
           </li>
