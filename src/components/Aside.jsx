@@ -75,7 +75,7 @@ const Aside = () => {
           </li>
 
 
-          <li className="contact-item">
+{/*           <li className="contact-item">
             <div className="icon-box">
               <GiMayanPyramid />
               <ion-icon name="location-outline"></ion-icon>
@@ -87,7 +87,7 @@ const Aside = () => {
               <address>Nepal</address>
               <address>India</address>
             </div>
-          </li>
+          </li> */}
         </ul>
 
         <div className="separator"></div>
