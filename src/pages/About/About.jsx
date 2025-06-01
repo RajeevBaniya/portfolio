@@ -8,12 +8,12 @@ const servicesData = [
     icon: "/images/icon-design.svg",
     title: "Designing",
     description:
-      "The most modern and high-quality design made at a professional level.",
+      "Modern, clean, and creative designs made to look stylish and unique.",
   },
   {
     icon: "/images/icon-dev.svg",
     title: "Web development",
-    description: "High-quality development of sites at the professional level.",
+    description: "Websites built with modern technology to be smooth, fast, and easy.",
   },
   {
     icon: "/images/icon-dev.svg",
@@ -25,7 +25,7 @@ const servicesData = [
     icon: "/images/icon-photo.svg",
     title: "Photography",
     description:
-      "I make high-quality photos of any category at a professional level.",
+      "I capture simple and beautiful photos for all kinds of moments.",
   },
 ];
 
