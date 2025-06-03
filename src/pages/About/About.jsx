@@ -56,7 +56,7 @@ const About = () => {
           showcase all my details and work.
         </p>
         <div class="btn-box">
-          <a href="" target="_blank" class="btn d-CV">
+          <a href="images/cvs.pdf" target="_blank" class="btn d-CV">
             DOWNLOAD <i class="bx bx-download"></i>
           </a>
         </div>
