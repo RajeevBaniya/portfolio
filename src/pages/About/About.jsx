@@ -17,7 +17,7 @@ const servicesData = [
   },
   {
     icon: "/images/icon-dev.svg",
-    title: "Cloud Technology",
+    title: "Cloud Platforms",
     description:
       "Expertise in cloud-based applications and services.",
   },
@@ -56,7 +56,7 @@ const About = () => {
           showcase all my details and work.
         </p>
         <div class="btn-box">
-          <a href="images/cvs.pdf" target="_blank" class="btn d-CV">
+          <a href="images/rajeev_cv.pdf" target="_blank" class="btn d-CV">
             DOWNLOAD <i class="bx bx-download"></i>
           </a>
         </div>
