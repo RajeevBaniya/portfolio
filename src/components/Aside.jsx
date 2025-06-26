@@ -104,11 +104,11 @@ const Aside = () => {
               <ion-icon name="logo-linkedin"><FaLinkedinIn /></ion-icon>
             </a>
           </li>
-          {/* <li className="social-item">
+          <li className="social-item">
             <a href="https://github.com/RajeevBaniya" className="social-link">
               <ion-icon name="logo-github"><FaGithub /></ion-icon>
             </a>
-          </li> */}
+          </li>
         </ul>
       </div>
     </aside>
