@@ -1,45 +1,44 @@
 [
   {
-    "id": 1,
-    "title": "Ecommerce website",
-    "category": "Web development",
-    "image": "images/project-1.png"
-  },
-  {
-    "id": 2,
-    "title": "Hotel Booking",
-    "category": "Web design",
-    "image": "images/project-2.png"
-  },
-  {
-    "id": 3,
-    "title": "BookNest(MERN)",
-    "category": "Web development",
+    "id": 6,
+    "title": "AI-Travel Planner",
+    "category": "React.js, Tailwind CSS, Firebse, Shadcn UI & Gemini AI API.",
     "image": "images/project-4.png"
   },
   {
-    "id": 4,
-    "title": "Bus Tracking",
-    "category": "Web design",
-    "image": "images/project-5.png"
+    "id": 3,
+    "title": "BookNest",
+    "category": "MERN Stack",
+    "image": "images/project-3.png"
+  },
+  {
+    "id": 7,
+    "title": "Note AI (Note Taking App)",
+    "category": "Next.js, Tailwind CSS, Clerk (Authentication), Convex, Gemini API & LangChain",
+    "image": "images/project-6.png"
+  },
+  {
+    "id": 5,
+    "title": "Finance Tracker",
+    "category": "Next.js, React.js, Tailwind CSS, shadcn/ui, Recharts, Node.js, Express.js, MongoDB, Clerk",
+    "image": "images/project-7.png"
+  },
+  {
+    "id": 1,
+    "title": "Ecommerce website",
+    "category": "Front-End",
+    "image": "images/project-1.png"
   },
   {
     "id": 5,
     "title": "DairyDirect(Ecommerce Website)",
-    "category": "Web development",
-    "image": "images/project-9.png"
+    "category": "MERN Stack",
+    "image": "images/project-5.png"
   },
   {
-    "id": 6,
-    "title": "AI-Travel Planner",
-    "category": "Web development",
-    "image": "images/project-8.png"
-  },
-   {
-    "id": 7,
-    "title": "Restaurant website",
-    "category": "Web design",
-    "image": "images/project-7.png"
+    "id": 2,
+    "title": "Hotel Booking",
+    "category": "Front-End",
+    "image": "images/project-2.png"
   }
 ]
-

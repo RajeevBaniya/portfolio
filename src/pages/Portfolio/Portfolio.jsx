@@ -1,63 +1,29 @@
-import  { useState, useEffect } from 'react';
-import { FaRegEye } from 'react-icons/fa';
+import { useState, useEffect } from "react";
+import { FaRegEye } from "react-icons/fa";
 
 const Portfolio = () => {
   const [projects, setProjects] = useState([]);
-  const [filteredProjects, setFilteredProjects] = useState([]);
-
-  const [selectedCategory, setSelectedCategory] = useState('All');
 
   useEffect(() => {
-    fetch('/projects.json')
-      .then(response => response.json())
-      .then(data => {
+    fetch("/projects.json")
+      .then((response) => response.json())
+      .then((data) => {
         setProjects(data);
-        setFilteredProjects(data);
       })
-      .catch(error => console.error('Error loading project data:', error));
+      .catch((error) => console.error("Error loading project data:", error));
   }, []);
-
-  const handleFilterClick = (category) => {
-    setSelectedCategory(category);
-    if (category === 'All') {
-      setFilteredProjects(projects);
-    } else {
-      const filtered = projects.filter(project => project.category === category);
-      setFilteredProjects(filtered);
-    }
-  };
 
   return (
     <section className="portfolio" data-page="portfolio">
       <header>
-        <h2 className="h2 article-title">Portfolio</h2>
+        <h2 className="h2 article-title">Projects</h2>
       </header>
-
-      {/* Filter buttons */}
-      <ul className="filter-list">
-        {['All', 'Web design','Web development'].map(category => (
-          <li className="filter-item" key={category}>
-            <button
-              className={category === selectedCategory ? 'active' : ''}
-              onClick={() => handleFilterClick(category)}
-              data-filter-btn
-            >
-              {category}
-            </button>
-          </li>
-        ))}
-      </ul>
 
       {/* Portfolio items */}
       <section className="projects">
         <ul className="project-list">
-          {filteredProjects.map(project => (
-            <li
-              className="project-item active"
-              data-filter-item
-              data-category={project.category}
-              key={project.id}
-            >
+          {projects.map((project) => (
+            <li className="project-item active" key={project.id}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <figure className="project-img">
                   <div className="project-item-icon-box">
