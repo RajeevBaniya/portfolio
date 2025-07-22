@@ -10,7 +10,7 @@ const Resume = () => {
         <h2 className="h2 article-title">Resume</h2>
       </header>
 
-      <div className="timeline">
+      <div className="timeline resume-section">
         <div className="title-wrapper">
           <div className="icon-box">
             <FaBookReader />
@@ -20,23 +20,16 @@ const Resume = () => {
         <ol className="timeline-list">
           <TimelineItem
             title="JAIN DEEMED-TO-BE UNIVERSITY"
-            date="2021 - 2025&nbsp;&nbsp; BENGALURU - PRESENT "
-            description="BACHELOR OF ENGINEERING IN COMPUTER SCIENCE."
-          />
-          <TimelineItem
-            title="TILOTTAMA CAMPUS"
-            date="2019 - 2020"
-            description="STUDIED SCIENCE - SECONDARY SCHOOL"
-          />
-          <TimelineItem
-            title="AMAR JYOTI ENGLISH MEDIUM SCHOOL"
-            date="PASSED OUT AT 2018"
-            description="10TH"
+            date="2021 - 2025  BENGALURU - PRESENT "
+            descriptions={[
+              "BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING.",
+              "SPECIALIZATION IN SOFTWARE ENGINEERING.",
+            ]}
           />
         </ol>
       </div>
 
-      <div className="timeline">
+      <div className="timeline resume-section">
         <div className="title-wrapper">
           <div className="icon-box">
             <FaRegBookmark />
@@ -45,16 +38,32 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimelineItem
-            title="FRONT-END DEVELOPER INTERNSHIP"
+            title="FRONT-END DEVELOPER INTERN"
             date="UNICOM PORTAL"
-            description="During my internship, I collaborated with the team to build a secure login system and manage user data effectively.
-            I also contributed to designing and improving a responsive web application, focusing on better performance across different devices.
-            Additionally, I worked on reducing page load times and implementing basic accessibility features to enhance the overall user experience."
+            descriptions={[
+              "Collaborated with the team and implemented secure user authentication.",
+              "Developed & maintained responsive web applications achieving 30% improvement in page load times",
+              "Built mobile-friendly web application with optimized performance and cross-device compatibility.",
+            ]}
           />
         </ol>
       </div>
 
-      <div className="timeline">
+      <div className="timeline resume-section">
+        <div className="title-wrapper">
+          <div className="icon-box">
+            <FaRegBookmark />
+          </div>
+          <h3 className="h3">Courses & Certifications</h3>
+        </div>
+        <ol className="timeline-list">
+          <TimelineItem title="Full-Stack Web Development Course" />
+          <TimelineItem title="React.js - Coursera" />
+          <TimelineItem title="AWS Certified Solutions Architect - Coursera" />
+        </ol>
+      </div>
+
+      <div className="timeline resume-section">
         <div className="title-wrapper">
           <div className="icon-box">
             <FaLanguage />

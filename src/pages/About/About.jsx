@@ -2,30 +2,19 @@
 
 import { useEffect, useState } from "react";
 import Service from "./Service";
+import TechStack from "./TechStack";
 
 const servicesData = [
   {
-    icon: "/images/icon-design.svg",
-    title: "Designing",
-    description:
-      "Modern, clean, and creative designs made to look stylish and unique.",
-  },
-  {
     icon: "/images/icon-dev.svg",
     title: "Web development",
-    description: "Websites built with modern technology to be smooth, fast, and easy.",
+    description:
+      "Websites built with modern technology to be smooth, fast, and easy.",
   },
   {
     icon: "/images/icon-dev.svg",
     title: "Cloud Platforms",
-    description:
-      "Expertise in cloud-based applications and services.",
-  },
-  {
-    icon: "/images/icon-photo.svg",
-    title: "Photography",
-    description:
-      "I capture simple and beautiful photos for all kinds of moments.",
+    description: "Expertise in cloud-based applications and services.",
   },
 ];
 
@@ -80,6 +69,7 @@ const About = () => {
           ))}
         </ul>
       </section>
+      <TechStack />
     </article>
   );
 };
