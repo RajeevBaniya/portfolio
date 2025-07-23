@@ -20,11 +20,8 @@ const Resume = () => {
         <ol className="timeline-list">
           <TimelineItem
             title="JAIN DEEMED-TO-BE UNIVERSITY"
-            date="2021 - 2025  BENGALURU - PRESENT "
-            descriptions={[
-              "BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING.",
-              "SPECIALIZATION IN SOFTWARE ENGINEERING.",
-            ]}
+            date="2021 - 2025  BANGALORE, IN"
+            description="BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING."
           />
         </ol>
       </div>
@@ -58,7 +55,7 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimelineItem title="Full-Stack Web Development Course" />
-          <TimelineItem title="React.js - Coursera" />
+          <TimelineItem title="React.js Course" />
           <TimelineItem title="AWS Certified Solutions Architect - Coursera" />
         </ol>
       </div>

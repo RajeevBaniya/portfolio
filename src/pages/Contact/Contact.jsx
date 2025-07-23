@@ -1,12 +1,11 @@
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 const Contact = () => {
-
   const onSubmit = async (event) => {
-      Swal.fire({
-        title: "Success!",
-        text: "Message sent successfully!",
-        icon: "success"
-      });
+    Swal.fire({
+      title: "Success!",
+      text: "Message sent successfully!",
+      icon: "success",
+    });
   };
   return (
     <section className="contact" data-page="contact">
@@ -17,7 +16,7 @@ const Contact = () => {
       <section className="mapbox" data-mapbox>
         <figure>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56620.38354504514!2d83.40134648443366!3d27.507404081952483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39969a3fd7ca84d9%3A0xbca4fda146716c6f!2sSiddharthanagar%2C%20Nepal!5e0!3m2!1sen!2sin!4v1720704312990!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.90089923568!2d77.46612624848429!3d12.953945614209816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1753280232945!5m2!1sen!2sin"
             width="600"
             height="450"
             allowfullscreen=""
