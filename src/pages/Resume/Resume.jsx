@@ -19,7 +19,7 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimelineItem
-            title="JAIN DEEMED-TO-BE UNIVERSITY"
+            title="JAIN UNIVERSITY"
             date="2021 - 2025  BANGALORE, IN"
             description="BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING."
           />
@@ -40,7 +40,7 @@ const Resume = () => {
             descriptions={[
               "Collaborated with the team and implemented secure user authentication.",
               "Developed & maintained responsive web applications achieving 30% improvement in page load times",
-              "Built mobile-friendly web application with optimized performance and cross-device compatibility.",
+              "Built mobile-friendly web application with optimized performance and cross device compatibility.",
             ]}
           />
         </ol>
