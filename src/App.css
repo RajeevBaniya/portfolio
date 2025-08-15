@@ -1083,6 +1083,26 @@ main {
   font-size: var(--fs-7);
 }
 
+.contact-info .contact-link-primary {
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  color: var(--light-gray);
+  display: block;
+  margin-top: 4px;
+}
+
+@media (min-width: 580px) {
+  .contact-info .contact-link-primary {
+    font-size: var(--fs-8);
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-info .contact-link-primary {
+    font-size: var(--fs-8);
+  }
+}
+
 .contact-info address {
   font-style: normal;
 }

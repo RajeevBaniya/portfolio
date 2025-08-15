@@ -60,20 +60,6 @@ const Resume = () => {
         </ol>
       </div>
 
-      <div className="timeline resume-section">
-        <div className="title-wrapper">
-          <div className="icon-box">
-            <FaLanguage />
-          </div>
-          <h3 className="h3">Languages Known</h3>
-        </div>
-        <ol className="timeline-list">
-          <TimelineItem title="ENGLISH" />
-          <TimelineItem title="HINDI" />
-          <TimelineItem title="NEPALI" />
-        </ol>
-      </div>
-
       <div className="skill">
         <h3 className="h3 skills-title">Technical Skills</h3>
         <ul className="skills-list content-card">
