@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Swal from "sweetalert2";
 import { sendEmail } from "../../utils/emailService";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -9,6 +10,14 @@ const Contact = () => {
     message: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+  // Initialize EmailJS with your public key
+  useEffect(() => {
+    // Only initialize in production mode to avoid errors in development
+    if (!import.meta.env.DEV) {
+      emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
+    }
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
