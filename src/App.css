@@ -2301,11 +2301,12 @@ textarea.form-input::-webkit-resizer {
     justify-content: center;
     align-items: stretch;
     gap: 25px;
+    padding-left: 320px;
   }
 
   .main-content {
-    min-width: 75%;
-    width: 75%;
+    min-width: 100%;
+    width: 100%;
     margin: 0;
   }
 
@@ -2314,13 +2315,15 @@ textarea.form-input::-webkit-resizer {
    */
 
   .sidebar {
-    position: sticky;
+    position: fixed;
     top: 60px;
-    max-height: max-content;
-    height: 100%;
+    left: calc(50% - 600px);
+    max-height: calc(100vh - 120px);
+    height: max-content;
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
+    overflow-y: auto;
   }
 
   .sidebar-info {
