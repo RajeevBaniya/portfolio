@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBookReader, FaLanguage, FaRegBookmark } from "react-icons/fa";
+import { FaBookReader, FaRegBookmark } from "react-icons/fa";
 import TimelineItem from "./TimelineItem";
 import SkillItem from "./SkillItem";
 
