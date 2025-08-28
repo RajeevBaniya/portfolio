@@ -38,9 +38,9 @@ const Resume = () => {
             title="FRONT-END DEVELOPER INTERN"
             date="UNICOM PORTAL"
             descriptions={[
-              "Implemented secure user authentication, improving account safety and reduced login-related errors.",
-              "Optimized front-end performance reducing page load times by 30% for better user experience.",
-              "Developed responsive mobile-friendly designs increasing accessibility across devices. ",
+              "Implemented secure user authentication, improving account safety and reduced login-related errors",
+              "Improved front-end performance reducing page load time by 30% for better user experience",
+              "Optimized UI components for responsiveness improving user experience across multiple screen sizes",
             ]}
           />
         </ol>
