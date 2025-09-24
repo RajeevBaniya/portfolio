@@ -40,7 +40,7 @@ const Resume = () => {
             descriptions={[
               "Implemented secure user authentication, improving account safety and reduced login-related errors",
               "Improved front-end performance reducing page load time by 30% for better user experience",
-              "Optimized UI components for responsiveness improving user experience across multiple screen sizes",
+              "Collaborated with backend developers to implement features, debug issues and ensure maintainable code",
             ]}
           />
         </ol>
