@@ -37,11 +37,6 @@ const Resume = () => {
             title="SOFTWARE DEVELOPER INTERN"
             company="ECSC GROUP"
             date="12/2024-05/2025"
-            // descriptions={[
-            //   "Implemented secure user authentication, improving account safety and reduced login-related errors",
-            //   "Optimized frontend performance by adding lazy loading and creating reusable components reducing page load time by 25-30% ",
-            //   "Coordinated with backend developers to implement and deliver new features",
-            // ]}
           />
         </ol>
         <br />
@@ -51,8 +46,8 @@ const Resume = () => {
             company="UNICOM PORTAL"
             date="07/2023-08/2023"
             descriptions={[
-              "Implemented secure user authentication, improving account safety and reduced login-related errors",
-              "Optimized frontend performance by adding lazy loading and creating reusable components reducing page load time by 25-30% ",
+              "Built login & signup interfaces with proper validation and error handling to improve user experience",
+              "Improved frontend performance by using lazy loading and pagination reducing page load time by 30%",
               "Coordinated with backend developers to implement and deliver new features",
             ]}
           />
