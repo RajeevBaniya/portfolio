@@ -1,4 +1,3 @@
-import React from "react";
 import { FaBookReader, FaRegBookmark } from "react-icons/fa";
 import TimelineItem from "./TimelineItem";
 import SkillItem from "./SkillItem";
@@ -35,8 +34,22 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimelineItem
+            title="SOFTWARE DEVELOPER INTERN"
+            company="ECSC GROUP"
+            date="12/2024-05/2025"
+            // descriptions={[
+            //   "Implemented secure user authentication, improving account safety and reduced login-related errors",
+            //   "Optimized frontend performance by adding lazy loading and creating reusable components reducing page load time by 25-30% ",
+            //   "Coordinated with backend developers to implement and deliver new features",
+            // ]}
+          />
+        </ol>
+        <br />
+        <ol className="timeline-list">
+          <TimelineItem
             title="FRONT-END DEVELOPER INTERN"
-            date="UNICOM PORTAL"
+            company="UNICOM PORTAL"
+            date="07/2023-08/2023"
             descriptions={[
               "Implemented secure user authentication, improving account safety and reduced login-related errors",
               "Optimized frontend performance by adding lazy loading and creating reusable components reducing page load time by 25-30% ",

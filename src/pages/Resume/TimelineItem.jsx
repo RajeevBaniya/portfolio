@@ -1,8 +1,14 @@
-const TimelineItem = ({ title, date, description, descriptions }) => {
+const TimelineItem = ({ title, date, company, description, descriptions }) => {
   return (
     <li className="timeline-item">
       <h4 className="h4 timeline-item-title">{title}</h4>
-      <span>{date}</span>
+      {company || date ? (
+        <span>
+          {company}
+          {company && date ? " — " : ""}
+          {date}
+        </span>
+      ) : null}
       {descriptions && descriptions.length > 0 ? (
         <ul className="timeline-text" style={{ margin: 0, paddingLeft: 18 }}>
           {descriptions.map((desc, idx) => (
