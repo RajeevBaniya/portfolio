@@ -3,42 +3,56 @@
     "id": 6,
     "title": "AI-Travel Planner",
     "category": "React.js, Tailwind CSS, Firebse, Shadcn UI & Gemini AI API.",
-    "image": "images/project-4.png"
+    "image": "images/project-4.png",
+    "url": "https://travelai-app.vercel.app/"
   },
   {
-    "id": 3,
-    "title": "BookNest",
-    "category": "MERN Stack",
-    "image": "images/project-3.png"
-  },
-  {
-    "id": 7,
-    "title": "Note AI (Note Taking App)",
-    "category": "Next.js, Tailwind CSS, Clerk (Authentication), Convex, Gemini API & LangChain",
-    "image": "images/project-6.png"
+    "id": 2,
+    "title": "BookOtel - Hotel Booking System",
+    "category": "MERN Stack, Stripe, Cloudinary",
+    "image": "images/project-2.png",
+    "url": "https://bookotel.vercel.app/"
   },
   {
     "id": 5,
     "title": "Finance Tracker",
     "category": "Next.js, React.js, Tailwind CSS, shadcn/ui, Recharts, Node.js, Express.js, MongoDB, Clerk",
-    "image": "images/project-7.png"
+    "image": "images/project-7.png",
+    "url": "https://finance-tracker-apps.vercel.app/"
   },
   {
-    "id": 1,
-    "title": "Ecommerce website",
-    "category": "Front-End",
-    "image": "images/project-1.png"
+    "id": 8,
+    "title": "SummarEase - Meeting notes summarizer",
+    "category": "React.js, Node.js, Express.js, Supabase, Nodemailer, Groq API, Tailwind CSS",
+    "image": "images/project-8.png",
+    "url": "https://meeting-notes-summarizer-app.vercel.app/"
+  },
+  {
+    "id": 7,
+    "title": "Note AI (Note Taking App)",
+    "category": "Next.js, Tailwind CSS, Clerk (Authentication), Convex, Gemini API & LangChain",
+    "image": "images/project-6.png",
+    "url": "https://ai-pdf-note-taker-lyart.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "BookNest",
+    "category": "MERN Stack",
+    "image": "images/project-3.png",
+    "url": "https://github.com/RajeevBaniya/BookNest"
   },
   {
     "id": 5,
     "title": "DairyDirect(Ecommerce Website)",
     "category": "MERN Stack",
-    "image": "images/project-5.png"
+    "image": "images/project-5.png",
+    "url": "https://github.com/RajeevBaniya/dairyproducts-ecomerce-website"
   },
   {
-    "id": 2,
-    "title": "Hotel Booking",
-    "category": "Front-End",
-    "image": "images/project-2.png"
+    "id": 1,
+    "title": "watchmart",
+    "category": "Html, Css, JavaScript",
+    "image": "images/project-1.png",
+    "url": "https://github.com/RajeevBaniya/watch-mart"
   }
 ]
