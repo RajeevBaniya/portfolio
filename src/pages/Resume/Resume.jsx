@@ -72,17 +72,18 @@ const Resume = () => {
         <h3 className="h3 skills-title">Technical Skills</h3>
         <ul className="skills-list content-card">
           <SkillItem title="Java" value={75} />
-          <SkillItem title="Python" value={75} />
-          <SkillItem title="Html & Css" value={98} />
-          <SkillItem title="Javascript" value={94} />
+          <SkillItem title="Python" value={60} />
+          <SkillItem title="Html & Css" value={100} />
+          <SkillItem title="Javascript" value={95} />
           <SkillItem title="React Js" value={90} />
           <SkillItem title="TailwindCss" value={90} />
-          <SkillItem title="MongoDB" value={90} />
+          <SkillItem title="MongoDB" value={95} />
           <SkillItem title="Node Js" value={90} />
           <SkillItem title="Express Js" value={90} />
           <SkillItem title="SQL(MySql)" value={75} />
-          <SkillItem title="Docker" value={70} />
-          <SkillItem title="Amazon AWS & Google Cloud Platform" value={75} />
+          <SkillItem title="Docker" value={75} />
+          <SkillItem title="AWS(EC2, VPC, S3, Route53, IAM, CloudWatch, Lambda, CloudFront), Firebase" value={65} />
+          <SkillItem title="Git & GitHub" value={95} />
         </ul>
       </div>
     </section>
