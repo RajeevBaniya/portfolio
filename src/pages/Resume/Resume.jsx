@@ -46,8 +46,8 @@ const Resume = () => {
             company="UNICOM PORTAL"
             date="07/2023-08/2023"
             descriptions={[
-              "Built login & signup interfaces with proper validation and error handling to improve user experience",
-              "Improved frontend performance by using lazy loading and pagination reducing page load time by 30%",
+              "Created login and signup form with proper form validation and error handling. ",
+              "Improved frontend performance using lazy loading and pagination reducing page load time by 30%",
               "Coordinated with backend developers to implement and deliver new features",
             ]}
           />
