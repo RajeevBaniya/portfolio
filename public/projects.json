@@ -1,14 +1,14 @@
 [
   {
     "id": 6,
-    "title": "AI-Travel Planner",
+    "title": "Travel Planner",
     "category": "React.js, Tailwind CSS, Firebse, Shadcn UI & Gemini AI API.",
     "image": "images/project-4.png",
     "url": "https://travelai-app.vercel.app/"
   },
   {
     "id": 2,
-    "title": "BookOtel - Hotel Booking System",
+    "title": "Hotel Booking System",
     "category": "MERN Stack, Stripe, Cloudinary",
     "image": "images/project-2.png",
     "url": "https://bookotel.vercel.app/"
@@ -22,14 +22,14 @@
   },
   {
     "id": 8,
-    "title": "SummarEase - Meeting notes summarizer",
+    "title": "Meeting notes summarizer - SummarEase",
     "category": "React.js, Node.js, Express.js, Supabase, Nodemailer, Groq API, Tailwind CSS",
     "image": "images/project-8.png",
     "url": "https://meeting-notes-summarizer-app.vercel.app/"
   },
   {
     "id": 7,
-    "title": "Note AI (Note Taking App)",
+    "title": "NoteAI (Note Taking App)",
     "category": "Next.js, Tailwind CSS, Clerk (Authentication), Convex, Gemini API & LangChain",
     "image": "images/project-6.png",
     "url": "https://ai-pdf-note-taker-lyart.vercel.app/"
