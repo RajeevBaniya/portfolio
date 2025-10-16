@@ -71,8 +71,7 @@ const Resume = () => {
       <div className="skill">
         <h3 className="h3 skills-title">Technical Skills</h3>
         <ul className="skills-list content-card">
-          <SkillItem title="Java" value={75} />
-          <SkillItem title="Python" value={60} />
+          <SkillItem title="Java" value={70} />
           <SkillItem title="Html & Css" value={95} />
           <SkillItem title="Javascript" value={95} />
           <SkillItem title="React Js" value={90} />
@@ -80,7 +79,7 @@ const Resume = () => {
           <SkillItem title="MongoDB" value={95} />
           <SkillItem title="Node Js" value={90} />
           <SkillItem title="Express Js" value={90} />
-          <SkillItem title="SQL(MySql)" value={75} />
+          <SkillItem title="SQL(MySql)" value={65} />
           <SkillItem title="Docker" value={75} />
           <SkillItem title="AWS(EC2, VPC, S3, Route53, IAM, CloudWatch, Lambda, CloudFront), Firebase" value={65} />
           <SkillItem title="Git & GitHub" value={95} />
