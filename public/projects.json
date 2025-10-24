@@ -7,6 +7,13 @@
     "url": "https://travelai-app.vercel.app/"
   },
   {
+    "id": 9,
+    "title": "PersonalFeed - Personalized Content Dashboard",
+    "category": "Next.js, Tailwind CSS, Firebase",
+    "image": "images/project-9.png",
+    "url": "https://personalfeed.vercel.app/"
+  },
+  {
     "id": 2,
     "title": "Hotel Booking System",
     "category": "MERN Stack, Stripe, Cloudinary",

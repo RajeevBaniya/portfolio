@@ -64,6 +64,23 @@ const Resume = () => {
         <ol className="timeline-list">
           <TimelineItem title="Full-Stack Web Development Course" />
           <TimelineItem title="React.js Course" />
+          <TimelineItem 
+            title="Docker Foundations Professional Certificate"
+            descriptions={[
+              "Containerization",
+              "Docker Products"
+            ]}
+          />
+          <TimelineItem 
+            title="Build Your Generative AI Productivity Skills with Microsoft and LinkedIn"
+            descriptions={[
+              "AI Productivity",
+              "Generative AI", 
+              "Artificial Intelligence for Business",
+              "Productivity Improvement",
+              "Prompt Engineering"
+            ]}
+          />
           <TimelineItem title="AWS Certified Solutions Architect - Coursera" />
         </ol>
       </div>
