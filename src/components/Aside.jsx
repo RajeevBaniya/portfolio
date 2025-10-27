@@ -30,7 +30,7 @@ const Aside = () => {
           <h1 className="name" title=" Rajeev Baniya">
             Rajeev Baniya
           </h1>
-          <p className="title">Web Developer</p>
+          {/* <p className="title">Web Developer</p> */}
         </div>
 
         <button
