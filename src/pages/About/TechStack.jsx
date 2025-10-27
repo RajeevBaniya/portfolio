@@ -6,6 +6,7 @@ import {
   FaGitAlt,
   FaLinux,
   FaJava,
+  FaPython,
 } from "react-icons/fa";
 import {
   SiMongodb,
@@ -25,6 +26,7 @@ const techs = [
   { name: "React", icon: <FaReact color="#61dafb" /> },
   { name: "Node.js", icon: <FaNodeJs color="#3c873a" /> },
   { name: "MySQL", icon: <SiMysql color="#00758f" /> },
+  { name: "Python", icon: <FaPython color="#3776ab" /> },
   { name: "AWS", icon: <FaAws color="#ff9900" /> },
   { name: "Firebase", icon: <SiFirebase color="#ffcb2b" /> },
   { name: "Docker", icon: <FaDocker color="#2496ed" /> },
