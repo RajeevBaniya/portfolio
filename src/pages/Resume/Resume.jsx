@@ -81,7 +81,7 @@ const Resume = () => {
               "Prompt Engineering"
             ]}
           />
-          <TimelineItem title="AWS Certified Solutions Architect - Coursera" />
+          <TimelineItem title="AWS Certified Solutions Architect - (Lenskart) - Coursera" />
         </ol>
       </div>
 
@@ -90,7 +90,7 @@ const Resume = () => {
         <ul className="skills-list content-card">
           <SkillItem title="Python" value={70} />
           <SkillItem title="Java" value={50} />
-          <SkillItem title="Html & Css" value={95} />
+          <SkillItem title="Html5 & CSS3" value={95} />
           <SkillItem title="Javascript" value={95} />
           <SkillItem title="React Js" value={90} />
           <SkillItem title="TailwindCss" value={90} />
