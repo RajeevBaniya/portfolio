@@ -7,11 +7,18 @@
     "url": "https://travelai-app.vercel.app/"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "PersonalFeed - Personalized Content Dashboard",
     "category": "Next.js, Tailwind CSS, Firebase",
     "image": "images/project-9.png",
     "url": "https://personalfeed.vercel.app/"
+  },
+  {
+    "id": 9,
+    "title": "Person-PPE-Detection-System",
+    "category": "Python, Yolov8, PyTorch, OpenCV, NumPY",
+    "image": "images/project-10.jpg",
+    "url": "https://github.com/RajeevBaniya/Person-PPE-Detection-System"
   },
   {
     "id": 2,
