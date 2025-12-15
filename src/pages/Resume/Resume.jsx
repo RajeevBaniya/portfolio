@@ -62,10 +62,10 @@ const Resume = () => {
           <h3 className="h3">Courses & Certifications</h3>
         </div>
         <ol className="timeline-list">
-          <TimelineItem title="Full-Stack Web Development Course" />
-          <TimelineItem title="React.js Course" />
+          <TimelineItem title="Full-Stack Web Development" />
+          <TimelineItem title="React.js" />
           <TimelineItem 
-            title="Docker Foundations Professional Certificate"
+            title="Docker"
             descriptions={[
               "Containerization",
               "Docker Products"
