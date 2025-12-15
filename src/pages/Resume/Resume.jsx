@@ -65,7 +65,7 @@ const Resume = () => {
           <TimelineItem title="Full-Stack Web Development" />
           <TimelineItem title="React.js" />
           <TimelineItem 
-            title="Docker"
+            title="Docker -"
             descriptions={[
               "Containerization",
               "Docker Products"
