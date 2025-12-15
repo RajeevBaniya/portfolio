@@ -64,7 +64,7 @@ const Resume = () => {
         <ol className="timeline-list">
           <TimelineItem title="Full-Stack Web Development" />
           <TimelineItem 
-            title="Docker -"
+            title="Docker Foundations Certificate"
             descriptions={[
               "Containerization",
               "Docker Products"
