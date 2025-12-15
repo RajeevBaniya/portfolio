@@ -63,7 +63,6 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimelineItem title="Full-Stack Web Development" />
-          <TimelineItem title="React.js" />
           <TimelineItem 
             title="Docker -"
             descriptions={[
@@ -81,6 +80,7 @@ const Resume = () => {
               "Prompt Engineering"
             ]}
           />
+          <TimelineItem title="React.js" />
           <TimelineItem title="AWS Certified Solutions Architect - (Lenskart) - Coursera" />
         </ol>
       </div>
