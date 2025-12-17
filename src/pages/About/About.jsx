@@ -9,7 +9,7 @@ const servicesData = [
     icon: "/images/icon-dev.svg",
     title: "Web App Development",
     description:
-      "Websites built with modern technology to be smooth, fast, and easy.",
+      "WebaApp built with modern technology to be smooth, fast, and easy.",
   },
   {
     icon: "/images/icon-dev.svg",
