@@ -1,18 +1,10 @@
 import {
-  FaFacebook,
   FaGithub,
-  FaInstagram,
   FaLinkedinIn,
   FaPhoneAlt,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import {
-  // FaWhatsapp
-  GiClawSlashes,
-  GiCalendar,
-  GiMailbox,
-  GiMayanPyramid,
-} from "react-icons/gi";
+import { GiClawSlashes, GiMailbox } from "react-icons/gi";
 
 const Aside = () => {
   const handleSidebarClick = () => {
@@ -30,7 +22,7 @@ const Aside = () => {
           <h1 className="name" title=" Rajeev Baniya">
             Rajeev Baniya
           </h1>
-          {/* <p className="title">Web Developer</p> */}
+          <p className="title">Full Stack Developer</p>
         </div>
 
         <button
@@ -43,10 +35,9 @@ const Aside = () => {
         </button>
       </div>
       <div className="sidebar-info_more">
-        <br />
-        <hr className="separator2" />
-        <ul className="contacts-list  ">
-          <li className="contact-item mt-20">
+        <div className="separator"></div>
+        <ul className="contacts-list">
+          <li className="contact-item">
             <div className="icon-box pt-6">
               <GiMailbox />
             </div>

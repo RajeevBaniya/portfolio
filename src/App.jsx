@@ -2,10 +2,15 @@ import { Outlet } from "react-router-dom";
 import "./App.css";
 import Aside from "./components/Aside";
 import Navbar from "./components/Navbar";
+import CursorSpotlight from "./components/CursorSpotlight";
 
 const App = () => {
   return (
     <>
+      <CursorSpotlight />
+      <div className="bg-grain"></div>
+      <div className="bg-vignette"></div>
+      <div className="bg-center-glow"></div>
       <div className="animated-bg-layer"></div>
       <div className="floating-element-1"></div>
       <div className="floating-element-2"></div>

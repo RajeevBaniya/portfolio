@@ -7,7 +7,7 @@ import TechStack from "./TechStack";
 const servicesData = [
   {
     icon: "/images/icon-dev.svg",
-    title: "Web development",
+    title: "Web App Development",
     description:
       "Websites built with modern technology to be smooth, fast, and easy.",
   },

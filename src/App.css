@@ -801,7 +801,13 @@ section {
   width: 100%;
   height: 1px;
   background: var(--jet);
-  margin: 15px 0;
+  margin: 10px 0;
+}
+
+/* Reduce gap for first separator in sidebar */
+.sidebar-info_more > .separator:first-child {
+  margin-top: 14px;
+  margin-bottom: 12px;
 }
 
 .icon-box {
@@ -1716,7 +1722,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .contacts-list {
-    margin-top: 16px;
+    margin-top: 0;
   }
 }
 /**
@@ -1745,7 +1751,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .contacts-list {
-    margin-top: 16px;
+    margin-top: 0;
   }
 }
 
@@ -1858,10 +1864,16 @@ textarea.form-input::-webkit-resizer {
   }
 
   .separator {
-    margin: 32px 0;
+    margin: 18px 0;
   }
   .separator2 {
-    margin: 15px 5px;
+    margin: 10px 5px;
+  }
+
+  /* Keep first separator in sidebar compact */
+  .sidebar-info_more > .separator:first-child {
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 
   .contacts-list {
@@ -3025,5 +3037,448 @@ textarea.form-input::-webkit-resizer {
 @media (min-width: 900px) {
   .tech-stack-grid {
     grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/*-----------------------------------*\
+  #ANIMATIONS - Human Touch Effects
+\*-----------------------------------*/
+
+/* Fade in from below animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Scale in animation */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Slide in from left */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Section fade in */
+section {
+  animation: fadeInUp 0.6s ease-out backwards;
+}
+
+/* Article content animation */
+article.active {
+  animation: fadeIn 0.5s ease backwards;
+}
+
+/* Service items - staggered animation */
+.service-item {
+  animation: fadeInUp 0.5s ease-out backwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:nth-child(1) { animation-delay: 0.1s; }
+.service-item:nth-child(2) { animation-delay: 0.2s; }
+.service-item:nth-child(3) { animation-delay: 0.3s; }
+.service-item:nth-child(4) { animation-delay: 0.4s; }
+
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 
+              0 0 20px rgba(255, 203, 107, 0.1);
+}
+
+/* Project items - staggered animation */
+.project-item {
+  animation: scaleIn 0.5s ease-out backwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:nth-child(1) { animation-delay: 0.05s; }
+.project-item:nth-child(2) { animation-delay: 0.1s; }
+.project-item:nth-child(3) { animation-delay: 0.15s; }
+.project-item:nth-child(4) { animation-delay: 0.2s; }
+.project-item:nth-child(5) { animation-delay: 0.25s; }
+.project-item:nth-child(6) { animation-delay: 0.3s; }
+.project-item:nth-child(7) { animation-delay: 0.35s; }
+.project-item:nth-child(8) { animation-delay: 0.4s; }
+.project-item:nth-child(9) { animation-delay: 0.45s; }
+.project-item:nth-child(10) { animation-delay: 0.5s; }
+
+.project-item:hover {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4), 
+              0 0 25px rgba(255, 203, 107, 0.15);
+}
+
+/* Tech stack items - staggered animation */
+.tech-stack-item {
+  animation: fadeInUp 0.4s ease-out backwards;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tech-stack-item:nth-child(1) { animation-delay: 0.05s; }
+.tech-stack-item:nth-child(2) { animation-delay: 0.08s; }
+.tech-stack-item:nth-child(3) { animation-delay: 0.11s; }
+.tech-stack-item:nth-child(4) { animation-delay: 0.14s; }
+.tech-stack-item:nth-child(5) { animation-delay: 0.17s; }
+.tech-stack-item:nth-child(6) { animation-delay: 0.2s; }
+.tech-stack-item:nth-child(7) { animation-delay: 0.23s; }
+.tech-stack-item:nth-child(8) { animation-delay: 0.26s; }
+.tech-stack-item:nth-child(9) { animation-delay: 0.29s; }
+.tech-stack-item:nth-child(10) { animation-delay: 0.32s; }
+.tech-stack-item:nth-child(11) { animation-delay: 0.35s; }
+.tech-stack-item:nth-child(12) { animation-delay: 0.38s; }
+.tech-stack-item:nth-child(13) { animation-delay: 0.41s; }
+.tech-stack-item:nth-child(14) { animation-delay: 0.44s; }
+.tech-stack-item:nth-child(15) { animation-delay: 0.47s; }
+
+.tech-stack-item:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25), 
+              0 0 15px rgba(255, 203, 107, 0.2);
+}
+
+.tech-stack-icon {
+  transition: transform 0.3s ease;
+}
+
+.tech-stack-item:hover .tech-stack-icon {
+  transform: scale(1.15);
+}
+
+/* Timeline items - staggered animation */
+.timeline-item {
+  animation: slideInLeft 0.5s ease-out backwards;
+}
+
+.timeline-item:nth-child(1) { animation-delay: 0.1s; }
+.timeline-item:nth-child(2) { animation-delay: 0.2s; }
+.timeline-item:nth-child(3) { animation-delay: 0.3s; }
+.timeline-item:nth-child(4) { animation-delay: 0.4s; }
+.timeline-item:nth-child(5) { animation-delay: 0.5s; }
+
+/* Skills items - staggered animation */
+.skills-item {
+  animation: fadeInUp 0.4s ease-out backwards;
+}
+
+.skills-item:nth-child(1) { animation-delay: 0.05s; }
+.skills-item:nth-child(2) { animation-delay: 0.1s; }
+.skills-item:nth-child(3) { animation-delay: 0.15s; }
+.skills-item:nth-child(4) { animation-delay: 0.2s; }
+.skills-item:nth-child(5) { animation-delay: 0.25s; }
+.skills-item:nth-child(6) { animation-delay: 0.3s; }
+.skills-item:nth-child(7) { animation-delay: 0.35s; }
+.skills-item:nth-child(8) { animation-delay: 0.4s; }
+.skills-item:nth-child(9) { animation-delay: 0.45s; }
+.skills-item:nth-child(10) { animation-delay: 0.5s; }
+.skills-item:nth-child(11) { animation-delay: 0.55s; }
+.skills-item:nth-child(12) { animation-delay: 0.6s; }
+.skills-item:nth-child(13) { animation-delay: 0.65s; }
+
+/* Skill progress bar animation */
+.skill-progress-fill {
+  animation: skillFill 1s ease-out 0.3s backwards;
+}
+
+@keyframes skillFill {
+  from {
+    width: 0;
+  }
+}
+
+/* Content card hover glow */
+.content-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3), 
+              0 0 20px rgba(255, 203, 107, 0.1);
+}
+
+/* Sidebar animation */
+.sidebar {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Avatar box hover effect */
+.avatar-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avatar-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Social links animation */
+.social-item {
+  animation: fadeInUp 0.4s ease-out backwards;
+}
+
+.social-item:nth-child(1) { animation-delay: 0.1s; }
+.social-item:nth-child(2) { animation-delay: 0.15s; }
+.social-item:nth-child(3) { animation-delay: 0.2s; }
+.social-item:nth-child(4) { animation-delay: 0.25s; }
+.social-item:nth-child(5) { animation-delay: 0.3s; }
+
+.social-link {
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-3px) scale(1.1);
+}
+
+/* Form inputs focus glow */
+.form-input {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus {
+  box-shadow: 0 0 0 3px rgba(255, 203, 107, 0.15);
+}
+
+/* Form button hover glow */
+.form-btn {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.form-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3), 
+              0 0 20px rgba(255, 203, 107, 0.2);
+}
+
+/* Download CV button animation */
+.btn-box .d-CV {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.btn-box .d-CV:hover {
+  transform: translateY(-2px);
+}
+
+/* Navbar link hover effect */
+.navbar-link {
+  position: relative;
+  transition: color 0.25s ease;
+}
+
+.navbar-link::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--orange-yellow-crayola);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.navbar-link:hover::after,
+.navbar-link.active::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Icon box pulse on hover */
+.icon-box {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.icon-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 203, 107, 0.3);
+}
+
+/* Contact items animation */
+.contact-item {
+  animation: fadeInUp 0.5s ease-out backwards;
+}
+
+.contact-item:nth-child(1) { animation-delay: 0.1s; }
+.contact-item:nth-child(2) { animation-delay: 0.2s; }
+.contact-item:nth-child(3) { animation-delay: 0.3s; }
+.contact-item:nth-child(4) { animation-delay: 0.4s; }
+
+/* Article title underline animation */
+.article-title::after {
+  transition: width 0.4s ease;
+}
+
+.article-title:hover::after {
+  width: 60px;
+}
+
+/* Resume section animation */
+.resume-section {
+  animation: fadeInUp 0.5s ease-out backwards;
+}
+
+.resume-section:nth-child(1) { animation-delay: 0.1s; }
+.resume-section:nth-child(2) { animation-delay: 0.2s; }
+.resume-section:nth-child(3) { animation-delay: 0.3s; }
+
+/* Mapbox animation */
+.mapbox {
+  animation: scaleIn 0.6s ease-out 0.2s backwards;
+}
+
+/* Contact form animation */
+.contact-form {
+  animation: fadeInUp 0.6s ease-out 0.3s backwards;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/*-----------------------------------*\
+  #CURSOR SPOTLIGHT EFFECT
+\*-----------------------------------*/
+
+.cursor-spotlight {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  pointer-events: none;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 203, 107, 0.08) 0%,
+    rgba(255, 203, 107, 0.04) 25%,
+    rgba(255, 203, 107, 0.01) 50%,
+    transparent 70%
+  );
+  transition: opacity 0.3s ease;
+  mix-blend-mode: screen;
+}
+
+/* Hide cursor spotlight on touch devices */
+@media (pointer: coarse) {
+  .cursor-spotlight {
+    display: none;
+  }
+}
+
+/* Hide cursor spotlight on small screens */
+@media (max-width: 768px) {
+  .cursor-spotlight {
+    display: none;
+  }
+}
+
+/*-----------------------------------*\
+  #BACKGROUND EFFECTS - Grain, Vignette, Glow
+\*-----------------------------------*/
+
+/* Subtle grain/noise texture overlay */
+.bg-grain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 180px 180px;
+}
+
+/* Vignette - darker edges to focus on cards */
+.bg-vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  background: 
+    radial-gradient(
+      ellipse at center,
+      transparent 0%,
+      transparent 35%,
+      rgba(0, 0, 0, 0.35) 70%,
+      rgba(0, 0, 0, 0.55) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.15) 0%,
+      transparent 15%,
+      transparent 85%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
+}
+
+/* Soft golden center glow */
+.bg-center-glow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -2;
+  background: radial-gradient(
+    ellipse at 50% 45%,
+    rgba(255, 203, 107, 0.04) 0%,
+    rgba(255, 203, 107, 0.02) 25%,
+    transparent 50%
+  );
+  animation: glowPulse 8s ease-in-out infinite alternate;
+}
+
+@keyframes glowPulse {
+  0% {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
   }
 }
