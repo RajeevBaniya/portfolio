@@ -2958,8 +2958,8 @@ textarea.form-input::-webkit-resizer {
 
 .tech-stack-section {
   margin-top: 32px;
-  margin-bottom: 32px;
-  padding: 24px 0 0 0;
+  margin-bottom: 0;
+  padding: 24px 0 32px 0;
 }
 .tech-stack-title {
   margin-bottom: 18px;

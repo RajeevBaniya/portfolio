@@ -2,7 +2,7 @@ import emailjs from '@emailjs/browser';
 
 export const sendEmail = async (name, email, message) => {
   try {
-    // For local development, show mock success
+   
     if (import.meta.env.DEV) {
       console.log('DEV MODE: Email would be sent with:', { name, email, message });
       return { 
@@ -12,7 +12,6 @@ export const sendEmail = async (name, email, message) => {
       };
     }
     
-    // Production mode - send real email with EmailJS
     const templateParams = {
       from_name: name,
       from_email: email,
