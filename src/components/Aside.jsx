@@ -22,7 +22,7 @@ const Aside = () => {
           <h1 className="name" title=" Rajeev Baniya">
             Rajeev Baniya
           </h1>
-          <p className="title">Full Stack Developer</p>
+          <p className="title">Full Stack Engineer</p>
         </div>
 
         <button

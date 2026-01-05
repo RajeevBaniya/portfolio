@@ -7,9 +7,9 @@ import TechStack from "./TechStack";
 const servicesData = [
   {
     icon: "/images/icon-dev.svg",
-    title: "Web App Development",
+    title: "Software Development",
     description:
-      "Web Applications built with modern technology to be smooth, fast, and easy.",
+      "I build user focused software with clean code and smooth performance.",
   },
   {
     icon: "/images/icon-dev.svg",
@@ -35,14 +35,13 @@ const About = () => {
       </header>
 
       <section className="about-text">
-        <p>Hello! I'm Rajeev Baniya.</p>
+        <p>Hello ! I'm Rajeev Baniya.</p>
 
         <p>
-          A highly motivated and passionate person exploring the world of IT
-          field, I enjoy working on tough challenges and finding creative
-          solutions. My goal is to make a real impact with my new ideas while
-          continuously learning & This is my official portfolio website to
-          showcase all my details and work.
+          Skilled in developing responsive web applications, optimizing performance
+          and creating secure authentication systems. Familiar with AI tools and cloud
+          services, while exploring and staying updated with the latest technology & 
+          This is my official portfolio website to showcase all my details and work.
         </p>
         <div class="btn-box">
           <a href="images/resume.pdf" target="_blank" class="btn d-CV">
