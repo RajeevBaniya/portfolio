@@ -38,18 +38,10 @@ const Resume = () => {
             company="ECSC GROUP"
             date="12/2024-05/2025"
           />
-        </ol>
-        <br />
-        <ol className="timeline-list">
           <TimelineItem
             title="FRONT-END DEVELOPER INTERN"
             company="UNICOM PORTAL"
             date="07/2023-08/2023"
-            // descriptions={[
-            //   "Created login and signup form with proper form validation and error handling.",
-            //   "Improved frontend performance using lazy loading and pagination reducing page load time by 30%",
-            //   "Collaborated with the team to test and fix Ui issues ensuring smooth user experience",
-            // ]}
           />
         </ol>
       </div>

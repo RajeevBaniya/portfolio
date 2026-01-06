@@ -1327,6 +1327,17 @@ main {
 .timeline-list {
   font-size: var(--fs-6);
   margin-left: 45px;
+  position: relative;
+}
+
+.timeline-list::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -30px;
+  width: 1px;
+  height: 25px;
+  background: var(--jet);
 }
 
 .timeline-item {
@@ -1380,6 +1391,11 @@ main {
 /**
  * skills 
  */
+
+.skill {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 
 .skills-title {
   margin-bottom: 20px;
@@ -1977,6 +1993,10 @@ textarea.form-input::-webkit-resizer {
     margin-left: 65px;
   }
 
+  .timeline-list::before {
+    left: -40px;
+  }
+
   .timeline-item:not(:last-child)::before {
     left: -40px;
   }
@@ -1985,6 +2005,11 @@ textarea.form-input::-webkit-resizer {
     height: 8px;
     width: 8px;
     left: -43px;
+  }
+
+  .skill {
+    margin-top: 28px;
+    margin-bottom: 28px;
   }
 
   .skills-item:not(:last-child) {
