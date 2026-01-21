@@ -8,13 +8,12 @@ const servicesData = [
   {
     icon: "/images/icon-dev.svg",
     title: "Software Development",
-    description:
-      "I build projects with a focus on writing clear code and gradually improving performance.",
+    description: "I build projects with a focus on writing clear code and improving performance.",
   },
   {
     icon: "/images/icon-dev.svg",
     title: "Cloud Platforms",
-    description: "I use cloud tools and have basic experience for deploying and managing applications.",
+    description: "I use cloud tools and have basic experience of deploying and managing applications.",
   },
 ];
 

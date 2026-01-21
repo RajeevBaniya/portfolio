@@ -33,7 +33,6 @@ const techs = [
   { name: "Express", icon: <SiExpress color="#fff" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss color="#38bdf8" /> },
   { name: "TypeScript", icon: <SiTypescript color="#3178c6" /> },
-  { name: "Java", icon: <FaJava color="#e76f00" /> },
   { name: "SQL", icon: <FaDatabase color="#336791" /> },
   { name: "MySQL", icon: <SiMysql color="#00758f" /> },
   { name: "Docker", icon: <FaDocker color="#2496ed" /> },

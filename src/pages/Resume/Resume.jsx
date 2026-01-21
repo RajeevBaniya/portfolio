@@ -56,11 +56,10 @@ const Resume = () => {
           <SkillItem title="Node Js" value={90} />
           <SkillItem title="Express Js" value={90} />
           <SkillItem title="Python" value={70} />
-          <SkillItem title="Java" value={50} />
           <SkillItem title="SQL(MySql)" value={65} />
           <SkillItem title="Html5 & CSS3" value={95} />
           <SkillItem title="Docker" value={75} />
-          <SkillItem title="AWS , Firebase"value={65} />
+          <SkillItem title="AWS , Firebase" value={65} />
           <SkillItem title="Git & GitHub" value={95} />
         </ul>
       </div>
@@ -74,10 +73,10 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimelineItem title="Full-Stack Web Development" />
-          <TimelineItem 
+          <TimelineItem
             title="Docker Foundations Certificate"
           />
-          <TimelineItem 
+          <TimelineItem
             title="Build Your Generative AI Productivity Skills with Microsoft and LinkedIn"
           />
           <TimelineItem title="React.js" />
