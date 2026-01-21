@@ -9,12 +9,12 @@ const servicesData = [
     icon: "/images/icon-dev.svg",
     title: "Software Development",
     description:
-      "I build user focused software with clean code and smooth performance.",
+      "I build projects with a focus on writing clear code and gradually improving performance.",
   },
   {
     icon: "/images/icon-dev.svg",
     title: "Cloud Platforms",
-    description: "Expertise in cloud-based applications and services.",
+    description: "I use cloud tools and have basic experience for deploying and managing applications.",
   },
 ];
 
@@ -40,7 +40,7 @@ const About = () => {
         <p>
           Skilled in developing responsive web applications, optimizing performance
           and creating secure authentication systems. Familiar with AI tools and cloud
-          services, while exploring and staying updated with the latest technology & 
+          services, while exploring and staying updated with the latest technology &
           This is my official portfolio website to showcase all my details and work.
         </p>
         <div class="btn-box">
