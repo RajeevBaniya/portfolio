@@ -8,12 +8,14 @@ const servicesData = [
   {
     icon: "/images/icon-dev.svg",
     title: "Software Development",
-    description: "I build projects with a focus on writing clear code and improving performance.",
+    description:
+      "I built projects with a focus on writing clear code and improving performance.",
   },
   {
     icon: "/images/icon-dev.svg",
     title: "Cloud Platforms",
-    description: "I use cloud tools and have basic experience of deploying and managing applications.",
+    description:
+      "I use cloud tools and have experience of deploying and managing applications.",
   },
 ];
 
@@ -37,10 +39,11 @@ const About = () => {
         <p>Hello ! I'm Rajeev Baniya.</p>
 
         <p>
-          Skilled in developing responsive web applications, optimizing performance
-          and creating secure authentication systems. Familiar with AI tools and cloud
-          services, while exploring and staying updated with the latest technology &
-          This is my official portfolio website to showcase all my details and work.
+          Skilled in developing responsive web applications, optimizing
+          performance and creating secure authentication systems. Familiar with
+          AI tools and cloud services, while exploring and staying updated with
+          the latest technology & This is my official portfolio website to
+          showcase all my details and work.
         </p>
         <div class="btn-box">
           <a href="images/resume.pdf" target="_blank" class="btn d-CV">
