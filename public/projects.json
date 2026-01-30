@@ -14,13 +14,6 @@
     "url": "https://personalfeed.vercel.app/"
   },
   {
-    "id": 9,
-    "title": "Person-PPE-Detection-System",
-    "category": "Python, Yolov8, PyTorch, OpenCV, NumPY",
-    "image": "images/project-10.jpg",
-    "url": "https://github.com/RajeevBaniya/Person-PPE-Detection-System"
-  },
-  {
     "id": 2,
     "title": "Hotel Booking System",
     "category": "MERN Stack, Stripe, Cloudinary",
@@ -40,6 +33,13 @@
     "category": "React.js, Node.js, Express.js, Supabase, Nodemailer, Groq API, Tailwind CSS",
     "image": "images/project-8.png",
     "url": "https://meeting-notes-summarizer-app.vercel.app/"
+  },
+  {
+    "id": 9,
+    "title": "Person-PPE-Detection-System",
+    "category": "Python, Yolov8, PyTorch, OpenCV, NumPY",
+    "image": "images/project-10.jpg",
+    "url": "https://github.com/RajeevBaniya/Person-PPE-Detection-System"
   },
   {
     "id": 7,
