@@ -56,9 +56,10 @@ const Resume = () => {
           <SkillItem title="Node Js" value={90} />
           <SkillItem title="Express Js" value={90} />
           <SkillItem title="Python" value={80} />
-          <SkillItem title="SQL(MySql)" value={70} />
+          <SkillItem title="SQL(MySql, PostgreSQL)" value={80} />
           <SkillItem title="Html5 & CSS3" value={95} />
           <SkillItem title="Docker" value={75} />
+          <SkillItem title="Redis" value={90} />
           <SkillItem title="AWS , Firebase" value={70} />
           <SkillItem title="Git & GitHub" value={95} />
         </ul>

@@ -4,7 +4,7 @@
     "title": "Travel Planner",
     "category": "React.js, Tailwind CSS, Firebse, Shadcn UI & Gemini AI API.",
     "image": "images/project-4.png",
-    "url": "https://travelai-app.vercel.app/"
+    "url": "https://github.com/RajeevBaniya/TravelPlanner"
   },
   {
     "id": 10,
@@ -25,14 +25,14 @@
     "title": "Finance Tracker",
     "category": "Next.js, React.js, Tailwind CSS, shadcn/ui, Recharts, Node.js, Express.js, MongoDB, Clerk",
     "image": "images/project-7.png",
-    "url": "https://finance-tracker-apps.vercel.app/"
+    "url": "https://fintrack-apps.vercel.app/"
   },
   {
     "id": 8,
-    "title": "Meeting notes summarizer - SummarEase",
-    "category": "React.js, Node.js, Express.js, Supabase, Nodemailer, Groq API, Tailwind CSS",
+    "title": "MeetNote – Real-time Meeting Platform with Live Transcript and Summaries",
+    "category": "FastAPI, Redis, PostgreSQL, WebSockets, Stream Video SDK, Next.js, Node.js",
     "image": "images/project-8.png",
-    "url": "https://meeting-notes-summarizer-app.vercel.app/"
+    "url": "https://github.com/RajeevBaniya/MeetNote"
   },
   {
     "id": 9,
