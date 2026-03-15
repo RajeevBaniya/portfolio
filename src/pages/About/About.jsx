@@ -7,15 +7,15 @@ import TechStack from "./TechStack";
 const servicesData = [
   {
     icon: "/images/icon-dev.svg",
-    title: "Software Development",
+    title: "Full Stack Engineering",
     description:
-      "I built projects with a focus on writing clear code and improving performance.",
+      "Experience working across Full Stack Applications, handling APIs, data flow and application logic using modern frameworks, databases and familiar with AI tools",
   },
   {
     icon: "/images/icon-dev.svg",
     title: "Cloud Platforms",
     description:
-      "I use cloud tools and have experience of deploying and managing applications.",
+      "Familiar with deploying and managing applications using cloud platforms and related developer tools",
   },
 ];
 
