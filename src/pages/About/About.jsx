@@ -7,15 +7,33 @@ import TechStack from "./TechStack";
 const servicesData = [
   {
     icon: "/images/icon-dev.svg",
-    title: "Full Stack Engineering",
+    title: "Frontend Development",
     description:
-      "Experience working across Full Stack Applications, handling APIs, data flow and application logic using modern frameworks, databases and familiar with AI tools",
+      "Experience with building responsive interfaces using modern frameworks, handling state, UI logic and integrating APIs",
+  },
+  {
+    icon: "/images/icon-dev.svg",
+    title: "Backend Development",
+    description:
+      "Experience with API design, data handling and backend logic using databases and server-side frameworks",
   },
   {
     icon: "/images/icon-dev.svg",
     title: "Cloud Platforms",
     description:
       "Familiar with deploying and managing applications using cloud platforms and related developer tools",
+  },
+  {
+    icon: "/images/icon-dev.svg",
+    title: "Cloud Platforms",
+    description:
+      "Familiar with deploying and managing applications using cloud platforms and related developer tools",
+  },
+  {
+    icon: "/images/icon-dev.svg",
+    title: "AI Tools & Integration",
+    description:
+      "Familiar with using AI tools for development, debugging and improving workflows along with integrating AI APIs into applications",
   },
 ];
 
