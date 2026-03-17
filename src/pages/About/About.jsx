@@ -25,12 +25,6 @@ const servicesData = [
   },
   {
     icon: "/images/icon-dev.svg",
-    title: "Cloud Platforms",
-    description:
-      "Familiar with deploying and managing applications using cloud platforms and related developer tools",
-  },
-  {
-    icon: "/images/icon-dev.svg",
     title: "AI Tools & Integration",
     description:
       "Familiar with using AI tools for development, debugging and improving workflows along with integrating AI APIs into applications",
