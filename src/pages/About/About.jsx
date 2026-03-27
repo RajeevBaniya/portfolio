@@ -51,12 +51,10 @@ const About = () => {
         <p>Hello ! I'm Rajeev Baniya.</p>
 
         <p>
-          Skilled in developing responsive applications, optimizing performance
+          Skilled in building responsive applications, optimizing performance,
           and creating secure authentication systems. Familiar with AI tools and
-          cloud services, while exploring and staying updated with the latest
-          technology. I love solving problems, picks up new tech fast, learn
-          from every challenges and stays curious about what's next in the
-          industry & This is my official portfolio website to showcase all my
+          cloud services while exploring and staying updated with the latest
+          technology & This is my official portfolio website to showcase all my
           details and work.
         </p>
         <div class="btn-box">
