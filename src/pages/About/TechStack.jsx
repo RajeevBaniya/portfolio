@@ -50,7 +50,7 @@ const techs = [
   // AI
   { name: "LLMs", icon: <FaBrain color="#a78bfa" /> },
   { name: "RAG", icon: <FaSearch color="#22d3ee" /> },
-  { name: "Hugging Face", icon: <span style={{ color: "#FFD21E", fontWeight: 700, fontSize: "1.1rem" }}>HF</span> },
+  { name: "Hugging Face", icon: <span aria-hidden="true" style={{ fontSize: "1.8rem", lineHeight: 1 }}>🤗</span> },
 
   // Cloud & DevOps
   { name: "AWS", icon: <FaAws color="#ff9900" /> },
