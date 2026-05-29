@@ -9,25 +9,25 @@ const servicesData = [
     icon: "/images/icon-dev.svg",
     title: "Frontend Development",
     description:
-      "Experience with building responsive interfaces using modern frameworks, handling state, UI logic and integrating APIs",
+      "Building responsive, performant interfaces with focus on state management, reusable components and seamless API integration.",
   },
   {
     icon: "/images/icon-dev.svg",
     title: "Backend Development",
     description:
-      "Experience with API design, data handling and backend logic using databases and server-side frameworks",
+      "Designing and building REST APIs, handling authentication, optimizing database queries and structuring clean server-side logic.",
   },
   {
     icon: "/images/icon-dev.svg",
-    title: "Cloud Platforms",
+    title: "Cloud & DevOps",
     description:
-      "Familiar with deploying and managing applications using cloud platforms and related developer tools",
+      "Deploying and managing applications on cloud platforms, handling environment configuration and ensuring smooth deployments.",
   },
   {
     icon: "/images/icon-dev.svg",
     title: "AI Tools & Integration",
     description:
-      "Familiar with using AI tools for development, debugging and improving workflows along with integrating AI APIs into applications",
+      "Building AI-powered workflows and integrating LLM APIs into applications while using AI tools to accelerate development and debugging.",
   },
 ];
 
@@ -51,11 +51,10 @@ const About = () => {
         <p>Hello ! I'm Rajeev Baniya.</p>
 
         <p>
-          Skilled in building responsive applications, optimizing performance,
-          and creating secure authentication systems. Familiar with AI tools and
-          cloud services while exploring and staying updated with the latest
-          technology & This is my official portfolio website to showcase all my
-          details and work.
+          Skilled in building full-stack and real-time applications with a
+          strong focus on backend systems, API desig, and performance
+          optimization actively exploring LLMs, AI-powered workflows and
+          cloud-native technologies.
         </p>
         <div class="btn-box">
           <a href="images/resume.pdf" target="_blank" class="btn d-CV">
