@@ -5,6 +5,8 @@ import {
   FaDocker,
   FaGitAlt,
   FaLinux,
+  FaBrain,
+  FaSearch,
 } from "react-icons/fa";
 import {
   SiMongodb,
@@ -19,7 +21,6 @@ import {
   SiFastapi,
   SiPostgresql,
   SiRedis,
-  SiOpenai,
 } from "react-icons/si";
 
 const techs = [
@@ -47,7 +48,8 @@ const techs = [
   { name: "Redis", icon: <SiRedis color="#ff4438" /> },
 
   // AI
-  { name: "OpenAI", icon: <SiOpenai color="#fff" /> },
+  { name: "LLMs", icon: <FaBrain color="#a78bfa" /> },
+  { name: "RAG", icon: <FaSearch color="#22d3ee" /> },
   { name: "Hugging Face", icon: <span style={{ color: "#FFD21E", fontWeight: 700, fontSize: "1.1rem" }}>HF</span> },
 
   // Cloud & DevOps
