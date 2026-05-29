@@ -5,44 +5,59 @@ import {
   FaDocker,
   FaGitAlt,
   FaLinux,
-  FaJava,
-  FaDatabase,
 } from "react-icons/fa";
 import {
   SiMongodb,
   SiMysql,
   SiTailwindcss,
-  SiPostman,
   SiExpress,
   SiJavascript,
   SiHtml5,
   SiCss3,
-  SiClerk,
-  SiSupabase,
   SiTypescript,
+  SiNextdotjs,
+  SiFastapi,
+  SiPostgresql,
+  SiRedis,
+  SiOpenai,
 } from "react-icons/si";
 
 const techs = [
+  // Languages
   { name: "JavaScript", icon: <SiJavascript color="#f7df1e" /> },
+  { name: "TypeScript", icon: <SiTypescript color="#3178c6" /> },
   { name: "Python", icon: <img src="/images/python.png" alt="Python" style={{ width: "2.2rem", height: "2.2rem", objectFit: "contain" }} /> },
   { name: "HTML5", icon: <SiHtml5 color="#e34f26" /> },
   { name: "CSS3", icon: <SiCss3 color="#1572b6" /> },
-  { name: "MongoDB", icon: <SiMongodb color="#47a248" /> },
+
+  // Frontend
   { name: "React", icon: <FaReact color="#61dafb" /> },
+  { name: "Next.js", icon: <SiNextdotjs color="#fff" /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss color="#38bdf8" /> },
+
+  // Backend
   { name: "Node.js", icon: <FaNodeJs color="#3c873a" /> },
   { name: "Express", icon: <SiExpress color="#fff" /> },
-  { name: "Tailwind CSS", icon: <SiTailwindcss color="#38bdf8" /> },
-  { name: "TypeScript", icon: <SiTypescript color="#3178c6" /> },
-  { name: "SQL", icon: <FaDatabase color="#336791" /> },
+  { name: "FastAPI", icon: <SiFastapi color="#009688" /> },
+
+  // Databases
+  { name: "MongoDB", icon: <SiMongodb color="#47a248" /> },
+  { name: "PostgreSQL", icon: <SiPostgresql color="#336791" /> },
   { name: "MySQL", icon: <SiMysql color="#00758f" /> },
-  { name: "Docker", icon: <FaDocker color="#2496ed" /> },
-  { name: "Git & GitHub", icon: <FaGitAlt color="#f34f29" /> },
-  { name: "Postman", icon: <SiPostman color="#ff6c37" /> },
-  { name: "Clerk", icon: <SiClerk color="#000" /> },
-  { name: "Supabase", icon: <SiSupabase color="#3ecf8e" /> },
-  { name: "Firebase", icon: <img src="/images/firebase.png" alt="Firebase" style={{ width: "2.2rem", height: "2.2rem", objectFit: "contain" }} /> },
+  { name: "Redis", icon: <SiRedis color="#ff4438" /> },
+
+  // AI
+  { name: "OpenAI", icon: <SiOpenai color="#fff" /> },
+  { name: "Hugging Face", icon: <span style={{ color: "#FFD21E", fontWeight: 700, fontSize: "1.1rem" }}>HF</span> },
+
+  // Cloud & DevOps
   { name: "AWS", icon: <FaAws color="#ff9900" /> },
+  { name: "Docker", icon: <FaDocker color="#2496ed" /> },
   { name: "Linux", icon: <FaLinux color="#fff" /> },
+
+  // Tools
+  { name: "Git & GitHub", icon: <FaGitAlt color="#f34f29" /> },
+  { name: "Firebase", icon: <img src="/images/firebase.png" alt="Firebase" style={{ width: "2.2rem", height: "2.2rem", objectFit: "contain" }} /> },
 ];
 
 const TechStack = () => (
