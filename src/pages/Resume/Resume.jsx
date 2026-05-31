@@ -36,12 +36,7 @@ const Resume = () => {
           <TimelineItem
             title="SOFTWARE DEVELOPER INTERN"
             company="ECSC GROUP"
-            date="07/2025-12/2025"
-          />
-          <TimelineItem
-            title="FRONT-END DEVELOPER INTERN"
-            company="UNICOM PORTAL"
-            date="07/2023-08/2023"
+            date="11/2025-04/2026"
           />
         </ol>
       </div>
