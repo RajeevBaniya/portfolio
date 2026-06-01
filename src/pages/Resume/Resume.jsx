@@ -34,9 +34,9 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimelineItem
-            title="SOFTWARE DEVELOPER INTERN"
+            title="SOFTWARE DEVELOPER INTERN - 6 month"
             company="ECSC GROUP"
-            date="11/2025-04/2026"
+            // date="0/202-0/202"
           />
         </ol>
       </div>
