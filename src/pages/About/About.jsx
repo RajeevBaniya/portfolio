@@ -56,11 +56,11 @@ const About = () => {
           optimization actively exploring LLMs, AI-powered workflows and
           cloud-native technologies.
         </p>
-        <div class="btn-box">
+        {/* <div class="btn-box">
           <a href="images/resume.pdf" target="_blank" class="btn d-CV">
             DOWNLOAD <i class="bx bx-download"></i>
           </a>
-        </div>
+        </div> */}
       </section>
 
       {/* <!--
