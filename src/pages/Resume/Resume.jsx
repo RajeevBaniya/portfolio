@@ -39,6 +39,7 @@ const Resume = () => {
             // date="0/2025-0/2026"
           />
         </ol>
+        <br />
          <ol className="timeline-list">
           <TimelineItem
             title="Technical Operations Intern - 3 month"
