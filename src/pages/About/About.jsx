@@ -27,7 +27,7 @@ const servicesData = [
     icon: "/images/icon-dev.svg",
     title: "AI Tools & Integration",
     description:
-      "Building AI-powered workflows and integrating LLM APIs into applications while using AI tools to accelerate development and debugging.",
+      "Building AI features and integrating AI tools into applications to add useful AI-powered functionality.",
   },
 ];
 
