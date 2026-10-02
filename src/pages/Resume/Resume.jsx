@@ -34,17 +34,17 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimelineItem
-            title="SOFTWARE DEVELOPER INTERN"
-            company="ECSC GROUP"
-            date="11/2025-04/2026"
+            title="Full Stack Developer"
+            company="Kritech Solutions"
+            // date=""
           />
         </ol>
         <br />
          <ol className="timeline-list">
           <TimelineItem
-            title="Technical Operations Intern"
-            company="Unicom Portal"
-            date="07/2023-09/2023"
+            title="Software Developer"
+            company="ECSC GROUP"
+            date="07/2025-06/2026"
           />
         </ol>
       </div>
