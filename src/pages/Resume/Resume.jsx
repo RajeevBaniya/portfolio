@@ -35,7 +35,7 @@ const Resume = () => {
         <ol className="timeline-list">
           <TimelineItem
             title="Full Stack Developer"
-            company="Kritech Solutions"
+            company="KRITECH SOLUTIONS"
             // date=""
           />
         </ol>
