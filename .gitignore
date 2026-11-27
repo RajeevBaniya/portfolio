@@ -21,3 +21,6 @@ dist-ssr
 
 graphify-out/
 .claude/
+
+# Tests (kept on this PC only)
+*.test.js
