@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import { useEffect, useState } from "react";
 import Service from "./Service";
 import TechStack from "./TechStack";
 
@@ -32,15 +31,6 @@ const servicesData = [
 ];
 
 const About = () => {
-  const [testimonials, setTestimonials] = useState([]);
-  useEffect(() => {
-    fetch("testimonials.json")
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setTestimonials(data);
-      });
-  }, []);
   return (
     <article className="about  active" data-page="about">
       <header>
@@ -52,7 +42,7 @@ const About = () => {
 
         <p>
           Skilled in building full-stack and real-time applications with a
-          strong focus on backend systems, API desig, and performance
+          strong focus on backend systems, API design, and performance
           optimization actively exploring LLMs, AI-powered workflows and
           cloud-native technologies.
         </p>
