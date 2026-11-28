@@ -1,72 +1,58 @@
 [
   {
-    "id": 6,
-    "title": "Travel Planner",
-    "category": "React.js, Tailwind CSS, Firebse, Shadcn UI & Gemini AI API.",
-    "image": "images/project-4.png",
-    "url": "https://github.com/RajeevBaniya/TravelPlanner"
+    "id": 8,
+    "title": "MeetNote – Video Meetings with Live Transcripts and Summaries",
+    "category": "Next.js, FastAPI, PostgreSQL, Redis, WebSockets, GetStream, Deepgram, Groq, Gemini, pgvector",
+    "image": "images/Meetnote.png",
+    "url": "https://github.com/RajeevBaniya/MeetNote"
+  },
+  {
+    "id": 11,
+    "title": "RecallStack – Ask Questions About Your Documents",
+    "category": "React, TypeScript, FastAPI, PostgreSQL, Redis, Celery, Pinecone, LangGraph, Gemini & Groq",
+    "image": "images/recallstack.png",
+    "url": "https://github.com/RajeevBaniya/agent"
   },
   {
     "id": 10,
     "title": "PersonalFeed - Personalized Content Dashboard",
     "category": "Next.js, Tailwind CSS, Firebase",
-    "image": "images/project-9.png",
+    "image": "images/personalfeed.png",
     "url": "https://personalfeed.vercel.app/"
+  },
+  {
+    "id": 9,
+    "title": "Person-PPE-Detection-System",
+    "category": "Python, YOLOv8, PyTorch, OpenCV, NumPy",
+    "image": "images/ppedetection.jpg",
+    "url": "https://github.com/RajeevBaniya/Person-PPE-Detection-System"
+  },
+  {
+    "id": 12,
+    "title": "MediConnect – Multi-Tenant Hospital Management Platform",
+    "category": "Go, PostgreSQL, React, TypeScript, Vite, Tailwind CSS, Firebase, WebSockets, Groq & Gemini",
+    "image": "images/mediconnect.png",
+    "url": "https://github.com/RajeevBaniya/Hops"
+  },
+  {
+    "id": 6,
+    "title": "Travel Planner",
+    "category": "React.js, Tailwind CSS, Firebase, Shadcn UI & Gemini AI API.",
+    "image": "images/travelplanner.png",
+    "url": "https://github.com/RajeevBaniya/TravelPlanner"
   },
   {
     "id": 2,
     "title": "Hotel Booking System",
     "category": "MERN Stack, Stripe, Cloudinary",
-    "image": "images/project-2.png",
+    "image": "images/hotelbooking.png",
     "url": "https://bookotel.vercel.app/"
   },
   {
     "id": 5,
     "title": "Finance Tracker",
     "category": "Next.js, React.js, Tailwind CSS, shadcn/ui, Recharts, Node.js, Express.js, MongoDB, Clerk",
-    "image": "images/project-7.png",
+    "image": "images/financetracker.png",
     "url": "https://fintrack-apps.vercel.app/"
-  },
-  {
-    "id": 8,
-    "title": "MeetNote – Real-time Meeting Platform with Live Transcript and Summaries",
-    "category": "FastAPI, Redis, PostgreSQL, WebSockets, Stream Video SDK, Next.js, Node.js",
-    "image": "images/project-8.png",
-    "url": "https://github.com/RajeevBaniya/MeetNote"
-  },
-  {
-    "id": 9,
-    "title": "Person-PPE-Detection-System",
-    "category": "Python, Yolov8, PyTorch, OpenCV, NumPY",
-    "image": "images/project-10.jpg",
-    "url": "https://github.com/RajeevBaniya/Person-PPE-Detection-System"
-  },
-  {
-    "id": 7,
-    "title": "NoteAI (Note Taking App)",
-    "category": "Next.js, Tailwind CSS, Clerk (Authentication), Convex, Gemini API & LangChain",
-    "image": "images/project-6.png",
-    "url": "https://ai-pdf-note-taker-lyart.vercel.app/"
-  },
-  {
-    "id": 3,
-    "title": "BookNest",
-    "category": "MERN Stack",
-    "image": "images/project-3.png",
-    "url": "https://github.com/RajeevBaniya/BookNest"
-  },
-  {
-    "id": 5,
-    "title": "DairyDirect(Ecommerce Website)",
-    "category": "MERN Stack",
-    "image": "images/project-5.png",
-    "url": "https://github.com/RajeevBaniya/dairyproducts-ecomerce-website"
-  },
-  {
-    "id": 1,
-    "title": "watchmart",
-    "category": "Html, Css, JavaScript",
-    "image": "images/project-1.png",
-    "url": "https://github.com/RajeevBaniya/watch-mart"
   }
 ]
