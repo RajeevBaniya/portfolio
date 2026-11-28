@@ -55,6 +55,7 @@ const Resume = () => {
           <SkillItem title="JavaScript" value={95} />
           <SkillItem title="TypeScript" value={75} />
           <SkillItem title="Python" value={80} />
+          <SkillItem title="Go" value={78} />
           <SkillItem title="HTML5 & CSS3" value={95} />
           <SkillItem title="React.js" value={90} />
           <SkillItem title="Next.js" value={85} />
