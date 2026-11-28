@@ -24,3 +24,6 @@ graphify-out/
 
 # Tests (kept on this PC only)
 *.test.js
+
+# AI knowledge base 
+backend/content/
