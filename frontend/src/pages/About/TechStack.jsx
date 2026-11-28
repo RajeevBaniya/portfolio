@@ -21,6 +21,7 @@ import {
   SiFastapi,
   SiPostgresql,
   SiRedis,
+  SiGo,
 } from "react-icons/si";
 
 const techs = [
@@ -28,6 +29,7 @@ const techs = [
   { name: "JavaScript", icon: <SiJavascript color="#f7df1e" /> },
   { name: "TypeScript", icon: <SiTypescript color="#3178c6" /> },
   { name: "Python", icon: <img src="/images/python.png" alt="Python" style={{ width: "2.2rem", height: "2.2rem", objectFit: "contain" }} /> },
+  { name: "Go", icon: <SiGo color="#00add8" /> },
   { name: "HTML5", icon: <SiHtml5 color="#e34f26" /> },
   { name: "CSS3", icon: <SiCss3 color="#1572b6" /> },
 
